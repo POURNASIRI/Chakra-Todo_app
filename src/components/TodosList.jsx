@@ -9,7 +9,8 @@ function NoteList() {
  
 
    
-
+    if(!todos.length) return <Text fontWeight={"bold"} fontSize={"2xl"}
+    >Your Todo List is empty</Text>
     
   return (
     <div className="note-list">

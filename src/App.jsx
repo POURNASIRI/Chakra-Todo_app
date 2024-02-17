@@ -13,10 +13,10 @@ function App() {
     
     
   return (
-    <Box minH={"100vh"} >
+    <Box minH={"100vh"}>
           <Text fontSize={'3xl'} borderBottom={"1px"}
     borderColor={"gray.200"} >TODO APP</Text>
-        <Box display={"flex"}  gap={4} pt={10}>
+        <Box display={"flex"} gap={4} pt={10}>
           <Box display={"flex"} flexDir={"column"} gap={4}flex={1} >
             <AddNewTodo/>
             <TodosList/>

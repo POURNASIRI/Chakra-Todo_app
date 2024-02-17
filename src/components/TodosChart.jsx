@@ -27,8 +27,7 @@ export default function TodosChart() {
         ]
       }
 
-      if(!allTodos) return <Text fontWeight={"bold"} fontSize={"2xl"}
-      >Your note List is empty</Text>
+    
     
      
     
